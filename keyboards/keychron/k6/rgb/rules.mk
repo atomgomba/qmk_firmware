@@ -46,6 +46,7 @@ MAGIC_KEYCODE_ENABLE = yes
 BOOTMAGIC_ENABLE = full # Virtual DIP switch configuration
 MOUSEKEY_ENABLE = no    # Mouse keys
 EXTRAKEY_ENABLE = yes   # Audio control and System control
+USB_FEATURE_ENABLE = yes   # Allows sending command to keyboard to restart in bootloader mode
 CONSOLE_ENABLE = no     # Console for debug
 COMMAND_ENABLE = no     # Commands for debug and configuration
 SLEEP_LED_ENABLE = yes  # Breathing sleep LED during USB suspend

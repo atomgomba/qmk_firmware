@@ -1,0 +1,13 @@
+/* USB Device descriptor parameter */
+#define VENDOR_ID       0x3434
+#define PRODUCT_ID      0xFE0A
+#define DEVICE_VER		0x0001
+
+#define FORCE_NKRO
+#define TAPPING_TERM 200
+#define COMBO_COUNT 1
+
+#define RGB_MATRIX_STARTUP_MODE RGB_MATRIX_SOLID_COLOR
+#define RGB_MATRIX_STARTUP_HUE 0
+#define RGB_MATRIX_STARTUP_SAT 0
+#define RGB_MATRIX_STARTUP_VAL 0

@@ -5,6 +5,7 @@ on:
     branches:
     - sn32
     - sn32_openrgb
+    - my-k6
   pull_request:
     branches:
     - sn32
@@ -36,7 +37,7 @@ jobs:
       with:
         name: Pre-Compiled Firmware (${{ steps.vars.outputs.branch }}-${{ steps.vars.outputs.sha_short }})
         path: '*.bin'
-        
+
     - uses: actions/upload-artifact@v2
       if: ${{ always() }}
       with:

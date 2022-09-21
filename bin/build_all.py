@@ -60,12 +60,14 @@ BOARDS = [
     'gmmk/tkl/rev2',
     'gmmk/tkl/rev3',
     'gmmk/compact/rev2',
-    'gmmk/compact/rev3',    
+    'gmmk/compact/rev3',
     'marvo/kg938',
     'akko/3061_rgb']
 
 error = False
 for kb in BOARDS:
+    if 'keychron/k6/rgb' not in kb:
+        continue
     if subprocess.run(f"qmk compile -kb {kb} -km all -j{os.cpu_count()}", shell=True).returncode != 0:
         error = True
 if error:
