@@ -15,7 +15,7 @@ jobs:
     container: d3xter93/sonix_base_container
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
       with:
         submodules: recursive
     - name: Install dependencies
@@ -29,13 +29,13 @@ jobs:
           echo "##[set-output name=branch;]$(echo ${GITHUB_REF_NAME//\//-})"
           echo "::set-output name=sha_short::$(git rev-parse --short HEAD)"
 
-    - uses: actions/upload-artifact@v2
+    - uses: actions/upload-artifact@v3
       if: ${{ always() }}
       with:
         name: Pre-Compiled Firmware (${{ steps.vars.outputs.branch }}-${{ steps.vars.outputs.sha_short }})
         path: '*.bin'
 
-    - uses: actions/upload-artifact@v2
+    - uses: actions/upload-artifact@v3
       if: ${{ always() }}
       with:
         name: Pre-Compiled Firmware
