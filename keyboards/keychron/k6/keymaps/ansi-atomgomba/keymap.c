@@ -74,13 +74,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                },
       [_FN1] = {  {   KC_GRV,    KC_SLCK,   KC_PAUS,   KC_APP,  KC_NO,    RGB_VAD, RGB_VAI,  KC_NO,   KC_NO,   KC_NO,     KC_MUTE,   KC_VOLD,   KC_VOLU,   KC_NO,     KC_NO,     KC_PGUP    },
                   {   KC_NO,     RGB_M_P,   RGB_M_B,   RGB_M_R, RGB_M_SW, RGB_M_T, RGB_SPD,  RGB_SPI, KC_NO,   KC_NO,     KC_INS,    KC_DEL,    KC_END,    KC_NO,     KC_NO,     KC_PGDOWN  },
-                  {   KC_NO,     KC_VOLD,   KC_VOLU,   KC_NO,   KC_NO,    KC_NO,   KC_NO,    KC_NO,   KC_NO,   KC_NO,     RGB_SAD,   RGB_SAI,   KC_NO,     KC_NO,     KC_NO,     KC_PGUP    },
+                  {   KC_NO,     KC_NO,     KC_PSCR,   KC_NO,   KC_NO,    KC_NO,   KC_NO,    KC_NO,   KC_NO,   KC_NO,     RGB_SAD,   RGB_SAI,   KC_NO,     KC_NO,     KC_NO,     KC_PGUP    },
                   {   KC_NO,     KC_NO,     KC_NO,     RGB_TOG, KC_NO,    KC_NO,   KC_NO,    KC_NO,   KC_NO,   RGB_RMOD,  RGB_MOD,   KC_NO,     KC_NO,     KC_NO,     KC_MSTP,   KC_PGDOWN  },
                   {   KC_GRV,    KC_NO,     KC_NO,     KC_NO,   KC_NO,    KC_NO,   RESET,    KC_NO,   KC_NO,   KC_NO,     KC_TRNS,   KC_TRNS,   KC_NO,     KC_MPRV,   KC_MPLY,   KC_MNXT    }
                },
       [_FN2] = {  {   KC_GRV,    KC_F1,     KC_F2,     KC_F3,   KC_F4,    KC_F5,   KC_F6,    KC_F7,   KC_F8,   KC_F9,     KC_F10,    KC_F11,    KC_F12,    KC_NO,     KC_NO,     KC_PGUP    },
                   {   KC_NO,     RGB_M_P,   RGB_M_B,   RGB_M_R, RGB_M_SW, RGB_M_T, RGB_SPD,  RGB_SPI, KC_NO,   KC_NO,     KC_NO,     KC_NO,     KC_NO,     KC_NO,     KC_NO,     KC_PGDOWN  },
-                  {   KC_NO,     KC_VOLD,   KC_VOLU,   KC_NO,   KC_NO,    KC_NO,   KC_NO,    KC_NO,   KC_NO,   KC_NO,     RGB_SAD,   RGB_SAI,   KC_NO,     KC_NO,     KC_NO,     KC_PGUP    },
+                  {   KC_NO,     KC_NO,     KC_NO,     KC_NO,   KC_NO,    KC_NO,   KC_NO,    KC_NO,   KC_NO,   KC_NO,     RGB_SAD,   RGB_SAI,   KC_NO,     KC_NO,     KC_NO,     KC_PGUP    },
                   {   KC_NO,     KC_NO,     KC_NO,     RGB_TOG, KC_NO,    KC_NO,   KC_NO,    KC_NO,   KC_NO,   RGB_RMOD,  RGB_MOD,   KC_NO,     KC_NO,     KC_NO,     KC_MSTP,   KC_PGDOWN  },
                   {   KC_GRV,    KC_NO,     KC_NO,     KC_NO,   KC_NO,    KC_NO,   RESET,    KC_NO,   KC_NO,   KC_NO,     KC_TRNS,   KC_TRNS,   KC_NO,     KC_MPRV,   KC_MPLY,   KC_MNXT    }
                },
